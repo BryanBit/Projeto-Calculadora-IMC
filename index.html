@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabeca">
+        <h1>Calculadora de Índice de Massa Corporal</h1>
+        <h2>Uma ferramenta prática para sua saúde e bem-estar!</h2>
+    </header>
+    <main class="main">
+        <section class="principal">
+            <h2>O que é o IMC e como ele funciona?</h2>
+            <p>O Índice de Massa Corporal (IMC) é uma ferramenta amplamente utilizada para avaliar a relação entre o peso e a altura de uma pessoa. Ele foi criado como uma maneira simples e prática de identificar se uma pessoa está em um peso considerado saudável, sendo útil tanto para profissionais de saúde quanto para a população em geral. Ele é calculado pela fórmula:
+                <p id="exemplo"><strong>IMC = Peso (kg) ÷ Altura (m)²</strong></p>
+            </p>
+            <div class="calc" id="calculadora">
+                <h2>Faça o seu teste agora!</h2>
+                <p>Descubra agora como está a sua saúde! Preencha os campos abaixo com seu peso e altura para calcular o seu Índice de Massa Corporal (IMC). É rápido, fácil e pode ser o primeiro passo para entender melhor o seu corpo e cuidar do seu bem-estar. Vamos lá?</p>
+                <div class="form-item">
+                    <label for="ipeso">PESO:</label>
+                    <input type="number" name="peso" id="ipeso">
+                </div>
+                <div class="form-item">
+                    <label for="ialtura">ALTURA:</label>
+                    <input type="number" name="altura" id="ialtura">
+                </div>
+                <input type="submit" value="Calcular" id="botao" onclick="calc()">
+                <div class="result">
+                    <p></p>
+                </div>
+            </div>
+            <div class="img">
+                <img src="Imagens/imagem-imc.jpg" alt="Foto de IMC">
+            </div>
+            <aside class="final-text">
+                <h3>Agora que você calculou seu IMC, <br>compartilhe saúde com quem você ama!</h3>
+                <p>Cuidar da saúde é essencial, e quanto mais pessoas estiverem conscientes disso, melhor! Convide seus amigos e familiares para também calcularem o Índice de Massa Corporal deles. Juntos, vocês podem iniciar uma jornada de bem-estar, adotando hábitos saudáveis e promovendo qualidade de vida.</p>
+                <p>Clique no botão de compartilhar e espalhe essa ferramenta prática! Afinal, uma pequena atitude pode ser o primeiro passo para grandes mudanças. 🩺✨</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Site criado por <strong><a href="https://github.com/BryanBit" rel="external" target="_blank">Bryan Bitencourt 🔗</a></strong> (12/24)</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
