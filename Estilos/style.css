@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* Reseta estilos e configura fonte padrão */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+main {
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+.cabeca {
+    width: 100%;
+    height: 85px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, rgb(136, 209, 136), rgb(111, 183, 111));
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.729);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.622);
+}
+.cabeca h1 {
+    padding-top: 15px;
+    font-size: 1.4em;
+}
+.cabeca h2 {
+    font-size: 1em;
+}
+.main h2 {
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    padding-top: 15px;
+}
+.main p {
+    width: 95%;
+    max-width: 500px;
+    font-size: 0.95em;
+    display: block;
+    margin: auto;
+    text-align: justify;
+}
+#exemplo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+img {
+    width: 360px;
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+}
+.calc {
+    max-width: 500px;
+    width: 90%;
+    height: 320px;
+    border-radius: 3px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    transition: 0.3s ease;
+    background-color: aliceblue;
+    border: 1px solid rgb(255, 0, 0);
+}
+.calc input, .calc label {
+    display: block;
+    margin: auto;
+    padding: 2px;
+}
+.calc label {
+    margin-top: 4px;
+    text-align: center;
+}
+.calc input {
+    border-radius: 10px;
+    width: 150px;
+    height: 18px;
+    margin-bottom: 15px;
+}
+.calc p {
+    width: 400px;
+}
+#botao {
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    background-color: rgb(73, 73, 234);
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #5e5e5e;
+    border-radius: 13px;
+}
+.final-text {
+    width: 98%;
+    height: 260px;
+    display: block;
+    margin: auto;
+}
+.final-text h3 {
+    font-size: 1.1em;
+    padding: 15px;
+    text-align: center;
+}
+.final-text p {
+    width: 94%;
+    font-size: 0.9em;
+    display: block;
+    margin: auto;
+    text-align: justify;
+}
+footer {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(86, 149, 86), rgb(68, 131, 68));
+}
+footer p {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
