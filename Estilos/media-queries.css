@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+    /* 
+    Typical Device Breakpoints:
+    ---------------------------
+    Pequenas telas: Até 600px;
+    Celular: De 600px até 768px;
+    Tablet: De 768px até 992px;
+    Desktop: De 992px até 1200px;
+    Grandes telas: Acima de 1200px.
+    */
+@media screen and (max-width:445px) {
+    .cabeca h2 {
+        display: none;
+    }
+}
+@media screen and (min-width: 590px) {
+    main {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 8px  rgba(0, 0, 0, 0.418);
+    }
+    .cabeca {
+        margin-bottom: -.1px;
+    }
+    html {
+        background: linear-gradient(to bottom, #bcccb0, #839c83);
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    html {
+        background: linear-gradient(to top, #bcccb0, #839c83);
+    }
+}
+@media screen and (min-width: 992px) {
+    .final-text {
+        margin-bottom: -30px;
+    }
+}
