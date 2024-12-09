@@ -9,9 +9,12 @@
     Desktop: De 992px até 1200px;
     Grandes telas: Acima de 1200px.
     */
-@media screen and (max-width:445px) {
+@media screen and (max-width:375px) {
+    .cabeca h1 {
+        font-size: 1em;
+    }
     .cabeca h2 {
-        display: none;
+        font-size: 0.5em;
     }
 }
 @media screen and (min-width: 590px) {
