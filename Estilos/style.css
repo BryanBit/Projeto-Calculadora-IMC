@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/* Reseta estilos e configura fonte padrão */
 * {
     margin: 0;
     padding: 0;
@@ -56,7 +55,6 @@ main {
 }
 img {
     width: 360px;
-    margin-top: 10px;
     display: block;
     margin: auto;
 }
@@ -88,7 +86,7 @@ img {
     margin-bottom: 15px;
 }
 .calc p {
-    width: 400px;
+    width: 96%;
 }
 #botao {
     width: 200px;
