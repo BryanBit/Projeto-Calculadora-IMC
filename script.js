@@ -51,4 +51,15 @@ function calcularImc() {
     var calcImc = pesoVal / (altVal * altVal)
     var result = document.getElementById ('result')
     result.innerHTML = `Seu IMC é de ${calcImc.toFixed(2)}`
+    if (calcImc < 18.5) {
+        result.innerHTML += ' e sua classificação é BAIXO PESO.'
+    } else if (calcImc >= 18.6 && calcImc < 24.9) {
+        result.innerHTML += ' e sua classificação é PESO NORMAL.'
+    } else if (calcImc >= 25 && calcImc < 29.9) {
+        result.innerHTML += ' e sua classificação é EXCESSO DE PESO.'
+    } else if (calcImc >= 30 && calcImc < 35) {
+        result.innerHTML += ' e sua classificação é OBESIDADE.'
+    } else {
+        result.innerHTML += ' e sua classificação é OBESIDADE EXTREMA.'
+    }
 }
