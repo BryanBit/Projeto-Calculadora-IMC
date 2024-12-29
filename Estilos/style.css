@@ -95,7 +95,7 @@ img {
 .calc p {
     width: 90%;
 }
-#botao {
+#botaoCalc {
     width: 200px;
     height: 30px;
     display: block;
@@ -112,7 +112,6 @@ img {
     height: 35px;
     display: none;
     margin: auto;
-    margin-top: 20px;
     background-color: rgb(75, 49, 210);
     color: #fff;
     font-weight: bold;
@@ -126,8 +125,7 @@ img {
     height: 60px;
     padding: 4px;
     margin-top: 20px;
-    text-indent: 20px;
-    border: 1px solid black;
+    text-align: center;
 }
 .final-text {
     width: 98%;

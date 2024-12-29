@@ -21,16 +21,18 @@
             <div class="calc" id="calculadora">
                 <form action="calc-imc.js">
                     <h2>Faça o seu teste agora!</h2>
-                    <p>Descubra agora como está a sua saúde! Preencha os campos abaixo com seu peso e altura para calcular o seu Índice de Massa Corporal (IMC). É rápido, fácil e pode ser o primeiro passo para entender melhor o seu corpo e cuidar do seu bem-estar. Vamos lá?</p>
-                    <div class="form-item">
-                        <label for="ipeso">PESO:</label>
-                        <input type="number" name="peso" id="ipeso">
+                    <p id="parag">Descubra agora como está a sua saúde! Preencha os campos abaixo com seu peso e altura para calcular o seu Índice de Massa Corporal (IMC). É rápido, fácil e pode ser o primeiro passo para entender melhor o seu corpo e cuidar do seu bem-estar. Vamos lá?</p>
+                    <div id="inputs">
+                        <div class="form-item">
+                            <label for="ipeso">PESO:</label>
+                            <input type="number" name="peso" id="ipeso">
+                        </div>
+                        <div class="form-item">
+                            <label for="ialtura">ALTURA:</label>
+                            <input type="number" name="altura" id="ialtura">
+                        </div>
                     </div>
-                    <div class="form-item">
-                        <label for="ialtura">ALTURA:</label>
-                        <input type="number" name="altura" id="ialtura"> 
-                    </div>
-                    <button type="button" id="botao" onclick="mudarTamanho()">Calcular</button>
+                    <button type="button" id="botaoCalc" onclick="funcoes()">Calcular</button>
                     <div id="result">
                         <p></p>
                     </div>
